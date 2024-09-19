@@ -105,4 +105,5 @@ if you have changed them since the last time you applied your configuration.
 
 # Marking variables as sensitive is not sufficient to secure them. 
 # You must also keep them secure while passing them into Terraform configuration, and protect them in your state file.
+# you must keep your Terraform state file secure to avoid accidentally exposing sensitive data.
 
